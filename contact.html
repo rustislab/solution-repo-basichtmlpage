@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Contact | Angel Escol - Frontend Developer</title>
+  <meta name="title" content="Contact | Angel Escol - Frontend Developer">
+  <meta name="description" content="Get in touch with Angel Escol for frontend engineering opportunities, web development projects, speaking inquiries, or accessibility audits.">
+  <meta name="keywords" content="contact web developer, hire frontend engineer, contact Angel Escol, web development inquiry">
+  <meta name="author" content="Angel Escol">
+  <meta name="robots" content="index, follow">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://example.com/contact.html">
+  <meta property="og:title" content="Contact | Angel Escol - Frontend Developer">
+  <meta property="og:description" content="Get in touch with Angel Escol for frontend engineering opportunities, web development projects, speaking inquiries, or accessibility audits.">
+  <meta property="og:site_name" content="Angel Escol Portfolio">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-container">
+      <div class="site-brand">
+        <a href="index.html" class="brand-link">
+          <strong>Angel Escol</strong>
+        </a>
+        <p class="brand-tagline">Frontend Developer &amp; Accessibility Advocate</p>
+      </div>
+
+      <nav class="site-nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="articles.html" class="nav-link">Articles</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link active" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content" id="main-content">
+
+    <section class="page-intro" aria-labelledby="contact-page-title">
+      <div class="section-container">
+        <h1 id="contact-page-title">Get in Touch</h1>
+        <p class="page-description">
+          Have a project in mind, a question about my articles, or an exciting career opportunity? I'd love to hear from you. Fill out the form below or reach out via direct email.
+        </p>
+      </div>
+    </section>
+
+    <section class="contact-info-section" aria-labelledby="direct-contact-heading">
+      <div class="section-container">
+        <h2 id="direct-contact-heading">Contact Details</h2>
+
+        <address class="contact-address">
+          <ul>
+            <li>
+              <strong>Email:</strong>
+              <a href="mailto:angel.escol@example.com">angel.escol@example.com</a>
+            </li>
+            <li>
+              <strong>Location:</strong>
+              <span>New York, NY (Available for remote work worldwide)</span>
+            </li>
+            <li>
+              <strong>Office Hours:</strong>
+              <span>Monday &ndash; Friday, 9:00 AM &ndash; 5:00 PM EST</span>
+            </li>
+            <li>
+              <strong>Response Time:</strong>
+              <span>Typically within 24&ndash;48 business hours</span>
+            </li>
+          </ul>
+        </address>
+      </div>
+    </section>
+
+    <section class="contact-form-section" aria-labelledby="form-heading">
+      <div class="section-container">
+        <h2 id="form-heading">Send a Message</h2>
+        <p>Please provide as much context as possible so I can best respond to your request.</p>
+
+        <form action="#" method="post" class="contact-form">
+
+          <fieldset class="form-group">
+            <legend>Personal Information</legend>
+
+            <div class="form-field">
+              <label for="full-name">Full Name <span aria-hidden="true">*</span></label>
+              <input 
+                type="text" 
+                id="full-name" 
+                name="name" 
+                placeholder="e.g. Alex Smith" 
+                autocomplete="name" 
+                required
+              >
+            </div>
+
+            <div class="form-field">
+              <label for="email-address">Email Address <span aria-hidden="true">*</span></label>
+              <input 
+                type="email" 
+                id="email-address" 
+                name="email" 
+                placeholder="e.g. alex@example.com" 
+                autocomplete="email" 
+                required
+              >
+            </div>
+
+            <div class="form-field">
+              <label for="phone-number">Phone Number (Optional)</label>
+              <input 
+                type="tel" 
+                id="phone-number" 
+                name="phone" 
+                placeholder="+1 (555) 000-0000" 
+                autocomplete="tel"
+              >
+            </div>
+          </fieldset>
+
+          <fieldset class="form-group">
+            <legend>Inquiry Details</legend>
+
+            <div class="form-field">
+              <label for="subject">Subject <span aria-hidden="true">*</span></label>
+              <input 
+                type="text" 
+                id="subject" 
+                name="subject" 
+                placeholder="What is this regarding?" 
+                required
+              >
+            </div>
+
+            <div class="form-field">
+              <label for="inquiry-type">Reason for Contact <span aria-hidden="true">*</span></label>
+              <select id="inquiry-type" name="inquiry_type" required>
+                <option value="" disabled selected>-- Select an option --</option>
+                <option value="project">New Project Collaboration</option>
+                <option value="job">Full-time / Contract Job Opportunity</option>
+                <option value="audit">Accessibility / SEO Audit</option>
+                <option value="speaking">Speaking / Workshop Request</option>
+                <option value="other">General Question / Say Hello</option>
+              </select>
+            </div>
+
+            <div class="form-field">
+              <label for="message">Message <span aria-hidden="true">*</span></label>
+              <textarea 
+                id="message" 
+                name="message" 
+                rows="6" 
+                cols="40" 
+                placeholder="Tell me about your project, timeline, or question in detail..." 
+                required
+              ></textarea>
+            </div>
+          </fieldset>
+
+          <fieldset class="form-group">
+            <legend>Preferences &amp; Consent</legend>
+
+            <div class="form-field-checkbox">
+              <input 
+                type="checkbox" 
+                id="consent" 
+                name="consent" 
+                required
+              >
+              <label for="consent">
+                I agree that the information submitted through this form will be used solely to respond to my inquiry. <span aria-hidden="true">*</span>
+              </label>
+            </div>
+
+            <div class="form-field-checkbox">
+              <input 
+                type="checkbox" 
+                id="newsletter-opt-in" 
+                name="newsletter_opt_in"
+              >
+              <label for="newsletter-opt-in">
+                Also subscribe me to monthly articles and web development tips.
+              </label>
+            </div>
+          </fieldset>
+
+          <!-- Form Submission Actions -->
+          <div class="form-actions">
+            <button type="submit" class="btn btn-submit">Send Message</button>
+            <button type="reset" class="btn btn-reset">Clear Form</button>
+          </div>
+
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-nav-section">
+        <h3>Navigation</h3>
+        <ul class="footer-nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="articles.html">Articles</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-social-section">
+        <h3>Connect</h3>
+        <ul class="social-links-list">
+          <li><a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          <li><a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter / X</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-legal">
+        <p>&copy; <time datetime="2026">2026</time> Angel Escol. All rights reserved.</p>
+        <p><small>Built with semantic HTML5.</small></p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

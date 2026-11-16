@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Articles | Angel Escol - Web Standards &amp; Frontend Development</title>
+  <meta name="title" content="Articles | Angel Escol - Web Standards &amp; Frontend Development">
+  <meta name="description" content="Technical articles, tutorials, and insights on semantic HTML, web accessibility, SEO optimization, and modern frontend development by Angel Escol.">
+  <meta name="keywords" content="web development articles, HTML tutorials, semantic HTML, web accessibility, SEO meta tags, frontend blog">
+  <meta name="author" content="Angel Escol">
+  <meta name="robots" content="index, follow">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://example.com/articles.html">
+  <meta property="og:title" content="Articles | Angel Escol - Web Standards &amp; Frontend Development">
+  <meta property="og:description" content="Technical articles, tutorials, and insights on semantic HTML, web accessibility, SEO optimization, and modern frontend development by Angel Escol.">
+  <meta property="og:site_name" content="Angel Escol Portfolio">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://example.com/articles.html">
+  <meta name="twitter:title" content="Articles | Angel Escol - Web Standards &amp; Frontend Development">
+  <meta name="twitter:description" content="Technical articles, tutorials, and insights on semantic HTML, web accessibility, SEO optimization, and modern frontend development by Angel Escol.">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-container">
+      <div class="site-brand">
+        <a href="index.html" class="brand-link">
+          <strong>Angel Escol</strong>
+        </a>
+        <p class="brand-tagline">Frontend Developer &amp; Accessibility Advocate</p>
+      </div>
+
+      <nav class="site-nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="articles.html" class="nav-link active" aria-current="page">Articles</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content" id="main-content">
+
+    <section class="page-intro" aria-labelledby="articles-page-title">
+      <div class="section-container">
+        <h1 id="articles-page-title">Articles &amp; Writing</h1>
+        <p class="page-description">
+          Guides, best practices, and deep dives on writing semantic HTML, improving web accessibility, optimizing for search engines, and frontend architecture.
+        </p>
+      </div>
+    </section>
+
+    <section class="articles-list-section" aria-labelledby="all-articles-heading">
+      <div class="section-container">
+        <h2 id="all-articles-heading">Recent Publications</h2>
+
+        <article class="article-entry" id="article-1">
+          <header class="article-header">
+            <h3>
+              <a href="#article-1">Understanding Semantic HTML and Why It Matters for Accessibility</a>
+            </h3>
+            <p class="article-meta">
+              Published on <time datetime="2024-10-15">October 15, 2024</time> &bull;
+              <span>Category: Accessibility</span> &bull;
+              <span>6 min read</span>
+            </p>
+          </header>
+
+          <div class="article-summary">
+            <p>
+              Many developers reach for <code>&lt;div&gt;</code> and <code>&lt;span&gt;</code> elements out of habit, but HTML5 provides dozens of semantic tags like <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;article&gt;</code>, and <code>&lt;section&gt;</code>. These elements convey essential meaning to browser accessibility trees and assistive technologies like screen readers.
+            </p>
+            <p>
+              In this article, we explore the difference between structural landmark elements, how to choose the right element for your content, and common mistakes that compromise web accessibility.
+            </p>
+          </div>
+
+          <footer class="article-footer">
+            <p><a href="#article-1" class="read-more-link">Continue reading "Understanding Semantic HTML" &rarr;</a></p>
+          </footer>
+        </article>
+
+        <hr>
+
+        <article class="article-entry" id="article-2">
+          <header class="article-header">
+            <h3>
+              <a href="#article-2">A Complete Guide to Essential SEO Meta Tags in HTML</a>
+            </h3>
+            <p class="article-meta">
+              Published on <time datetime="2024-08-28">August 28, 2024</time> &bull;
+              <span>Category: SEO &amp; Performance</span> &bull;
+              <span>5 min read</span>
+            </p>
+          </header>
+
+          <div class="article-summary">
+            <p>
+              Search engine optimization starts with the code inside your document's <code>&lt;head&gt;</code>. Having proper title tags, concise descriptions, viewport scaling configurations, and Open Graph protocol tags ensures your website ranks well and renders beautifully when shared across social media.
+            </p>
+            <p>
+              We cover the must-have tags for every modern webpage, how search engine crawlers interpret them, and practical tips to avoid duplicate tag penalties.
+            </p>
+          </div>
+
+          <footer class="article-footer">
+            <p><a href="#article-2" class="read-more-link">Continue reading "Essential SEO Meta Tags" &rarr;</a></p>
+          </footer>
+        </article>
+
+        <hr>
+
+        <article class="article-entry" id="article-3">
+          <header class="article-header">
+            <h3>
+              <a href="#article-3">Designing Forms That Everyone Can Use: Labels, Controls, and Validation</a>
+            </h3>
+            <p class="article-meta">
+              Published on <time datetime="2024-06-12">June 12, 2024</time> &bull;
+              <span>Category: Forms &amp; UX</span> &bull;
+              <span>7 min read</span>
+            </p>
+          </header>
+
+          <div class="article-summary">
+            <p>
+              Forms are the primary interactive touchpoint on the web. Poorly structured forms with missing labels, ambiguous placeholder text, or inaccessible error messages create significant barriers for users with disabilities.
+            </p>
+            <p>
+              Learn how to connect labels to inputs using the <code>for</code> attribute, group related fields with <code>&lt;fieldset&gt;</code> and <code>&lt;legend&gt;</code>, leverage native HTML5 constraint validation, and provide helpful error descriptions.
+            </p>
+          </div>
+
+          <footer class="article-footer">
+            <p><a href="#article-3" class="read-more-link">Continue reading "Designing Forms That Everyone Can Use" &rarr;</a></p>
+          </footer>
+        </article>
+
+        <hr>
+
+        <article class="article-entry" id="article-4">
+          <header class="article-header">
+            <h3>
+              <a href="#article-4">Why HTML-First Architecture Makes Your Web Apps Faster</a>
+            </h3>
+            <p class="article-meta">
+              Published on <time datetime="2024-03-04">March 4, 2024</time> &bull;
+              <span>Category: Web Architecture</span> &bull;
+              <span>8 min read</span>
+            </p>
+          </header>
+
+          <div class="article-summary">
+            <p>
+              In an era dominated by heavy client-side JavaScript frameworks, returning to an HTML-first mindset can dramatically improve page load performance, reduce memory overhead on low-end devices, and simplify maintenance.
+            </p>
+            <p>
+              This post analyzes performance benchmarks comparing client-side rendering against server-delivered semantic HTML, highlighting how progressive enhancement delivers the best user experience.
+            </p>
+          </div>
+
+          <footer class="article-footer">
+            <p><a href="#article-4" class="read-more-link">Continue reading "Why HTML-First Architecture Makes Apps Faster" &rarr;</a></p>
+          </footer>
+        </article>
+
+      </div>
+    </section>
+
+    <aside class="newsletter-aside" aria-labelledby="newsletter-heading">
+      <div class="section-container">
+        <h2 id="newsletter-heading">Stay Updated</h2>
+        <p>Subscribe to receive occasional updates whenever a new article or tutorial is published. No spam, ever.</p>
+        <form action="#" method="post" class="newsletter-form">
+          <label for="newsletter-email">Your Email Address:</label>
+          <input type="email" id="newsletter-email" name="email" placeholder="name@example.com" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </aside>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-nav-section">
+        <h3>Navigation</h3>
+        <ul class="footer-nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="articles.html">Articles</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-social-section">
+        <h3>Connect</h3>
+        <ul class="social-links-list">
+          <li><a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          <li><a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter / X</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-legal">
+        <p>&copy; <time datetime="2026">2026</time> Angel Escol. All rights reserved.</p>
+        <p><small>Built with semantic HTML5.</small></p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Projects | Angel Escol - Frontend Developer Portfolio</title>
+  <meta name="title" content="Projects | Angel Escol - Frontend Developer Portfolio">
+  <meta name="description" content="Explore web development projects by Angel Escol. Featuring semantic HTML websites, accessible design systems, and responsive web applications.">
+  <meta name="keywords" content="web projects, frontend portfolio, HTML5, accessibility, responsive design, JavaScript projects">
+  <meta name="author" content="Angel Escol">
+  <meta name="robots" content="index, follow">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://example.com/projects.html">
+  <meta property="og:title" content="Projects | Angel Escol - Frontend Developer Portfolio">
+  <meta property="og:description" content="Explore web development projects by Angel Escol. Featuring semantic HTML websites, accessible design systems, and responsive web applications.">
+  <meta property="og:site_name" content="Angel Escol Portfolio">
+
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-container">
+      <div class="site-brand">
+        <a href="index.html" class="brand-link">
+          <strong>Angel Escol</strong>
+        </a>
+        <p class="brand-tagline">Frontend Developer &amp; Accessibility Advocate</p>
+      </div>
+
+      <nav class="site-nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="projects.html" class="nav-link active" aria-current="page">Projects</a></li>
+          <li class="nav-item"><a href="articles.html" class="nav-link">Articles</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content" id="main-content">
+
+    <section class="page-intro" aria-labelledby="page-title">
+      <div class="section-container">
+        <h1 id="page-title">My Projects</h1>
+        <p class="page-description">
+          A showcase of recent work, open-source tools, and experiments focusing on semantic HTML structure, web accessibility, and performance.
+        </p>
+      </div>
+    </section>
+
+    <section class="projects-list-section" aria-labelledby="all-projects-heading">
+      <div class="section-container">
+        <h2 id="all-projects-heading">All Projects</h2>
+
+        <article class="project-item" id="project-1">
+          <header class="project-header">
+            <h3>Accessible Component Library</h3>
+            <p class="project-status"><strong>Status:</strong> Active / Open Source</p>
+          </header>
+
+          <figure class="project-figure">
+            <figcaption>Interactive component library adhering to W3C WAI-ARIA authoring practices.</figcaption>
+          </figure>
+
+          <div class="project-body">
+            <p>
+              A lightweight, zero-dependency suite of fully accessible, keyboard-operable UI components including dialog modals, disclosure accordions, tab panels, and custom dropdown menus.
+            </p>
+
+            <h4>Key Highlights</h4>
+            <ul>
+              <li>100% WCAG 2.1 Level AAA compliant navigation patterns.</li>
+              <li>Semantic HTML5 foundation requiring zero CSS framework dependencies.</li>
+              <li>Thorough keyboard trap prevention and screen-reader tested announcements.</li>
+            </ul>
+
+            <h4>Tech Stack</h4>
+            <ul class="tech-stack-list">
+              <li>HTML5</li>
+              <li>WAI-ARIA</li>
+              <li>CSS3 Custom Properties</li>
+              <li>Vanilla JavaScript</li>
+            </ul>
+
+            <footer class="project-links">
+              <a href="https://github.com/example/accessible-components" target="_blank" rel="noopener noreferrer">View Source on GitHub</a>
+              &bull;
+              <a href="https://example.com/demo/accessible-components" target="_blank" rel="noopener noreferrer">Live Interactive Demo</a>
+            </footer>
+          </div>
+        </article>
+
+        <hr>
+
+        <article class="project-item" id="project-2">
+          <header class="project-header">
+            <h3>E-Commerce Product Catalog</h3>
+            <p class="project-status"><strong>Status:</strong> Completed</p>
+          </header>
+
+          <figure class="project-figure">
+            <figcaption>Fast product browsing experience with accessible filtering controls.</figcaption>
+          </figure>
+
+          <div class="project-body">
+            <p>
+              A performant and responsive catalog web application that enables shoppers to search, filter by multiple categories, sort by price and rating, and view detailed product specifications.
+            </p>
+
+            <h4>Key Highlights</h4>
+            <ul>
+              <li>Accessible search form controls with live announcements for filter results.</li>
+              <li>Semantic definition lists (<code>&lt;dl&gt;</code>) for product dimensions and technical specifications.</li>
+              <li>Fast client-side state caching using modern Web Storage API.</li>
+            </ul>
+
+            <h4>Tech Stack</h4>
+            <ul class="tech-stack-list">
+              <li>Semantic HTML5</li>
+              <li>CSS Grid &amp; Flexbox</li>
+              <li>JavaScript (ES6 Modules)</li>
+              <li>RESTful Products API</li>
+            </ul>
+
+            <footer class="project-links">
+              <a href="https://github.com/example/ecommerce-catalog" target="_blank" rel="noopener noreferrer">View Source on GitHub</a>
+              &bull;
+              <a href="https://example.com/demo/ecommerce-catalog" target="_blank" rel="noopener noreferrer">Live Interactive Demo</a>
+            </footer>
+          </div>
+        </article>
+
+        <hr>
+
+        <article class="project-item" id="project-3">
+          <header class="project-header">
+            <h3>Developer Documentation Hub</h3>
+            <p class="project-status"><strong>Status:</strong> Active</p>
+          </header>
+
+          <figure class="project-figure">
+            <figcaption>Clean, searchable API documentation site built for clarity and speed.</figcaption>
+          </figure>
+
+          <div class="project-body">
+            <p>
+              A documentation portal featuring semantic code blocks, syntax references, breadcrumb navigation, and an intuitive table of contents to make developer onboarding seamless.
+            </p>
+
+            <h4>Key Highlights</h4>
+            <ul>
+              <li>Structured with semantic <code>&lt;nav&gt;</code>, <code>&lt;aside&gt;</code>, and <code>&lt;article&gt;</code> elements.</li>
+              <li>In-page jump anchors allowing developers to bookmark specific API endpoints.</li>
+              <li>Print-friendly layout structure for offline reading and referencing.</li>
+            </ul>
+
+            <h4>Tech Stack</h4>
+            <ul class="tech-stack-list">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>Markdown / Static Site Generator</li>
+            </ul>
+
+            <footer class="project-links">
+              <a href="https://github.com/example/docs-hub" target="_blank" rel="noopener noreferrer">View Source on GitHub</a>
+              &bull;
+              <a href="https://example.com/demo/docs-hub" target="_blank" rel="noopener noreferrer">Live Interactive Demo</a>
+            </footer>
+          </div>
+        </article>
+
+        <hr>
+
+        <article class="project-item" id="project-4">
+          <header class="project-header">
+            <h3>Weather Forecast Dashboard</h3>
+            <p class="project-status"><strong>Status:</strong> Completed</p>
+          </header>
+
+          <figure class="project-figure">
+            <figcaption>Real-time 7-day weather forecast with semantic data tables.</figcaption>
+          </figure>
+
+          <div class="project-body">
+            <p>
+              A weather dashboard providing current conditions, hourly forecasts, and 7-day weather trends formatted with accessible tabular data for screen readers.
+            </p>
+
+            <h4>Key Highlights</h4>
+            <ul>
+              <li>Data presented via semantic <code>&lt;table&gt;</code> with proper <code>&lt;caption&gt;</code>, <code>&lt;thead&gt;</code>, and <code>scope</code> attributes.</li>
+              <li>Geolocation API integration with graceful degradation and manual search option.</li>
+              <li>ARIA live regions to notify assistive technology of incoming weather alerts.</li>
+            </ul>
+
+            <h4>Tech Stack</h4>
+            <ul class="tech-stack-list">
+              <li>HTML5 &amp; ARIA Live Regions</li>
+              <li>OpenWeather API</li>
+              <li>JavaScript Fetch API</li>
+            </ul>
+
+            <footer class="project-links">
+              <a href="https://github.com/example/weather-dashboard" target="_blank" rel="noopener noreferrer">View Source on GitHub</a>
+              &bull;
+              <a href="https://example.com/demo/weather-dashboard" target="_blank" rel="noopener noreferrer">Live Interactive Demo</a>
+            </footer>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-nav-section">
+        <h3>Navigation</h3>
+        <ul class="footer-nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="articles.html">Articles</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-social-section">
+        <h3>Connect</h3>
+        <ul class="social-links-list">
+          <li><a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          <li><a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter / X</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-legal">
+        <p>&copy; <time datetime="2026">2026</time> Angel Escol. All rights reserved.</p>
+        <p><small>Built with semantic HTML5.</small></p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
